@@ -1,5 +1,6 @@
 import { EScreens } from '../../screens.ts';
 
 export type TAuthStack = {
-    [EScreens.AuthMain]: undefined,
+    [EScreens.AuthAuthorization]: undefined,
+    [EScreens.AuthRegistration]: undefined,
 }

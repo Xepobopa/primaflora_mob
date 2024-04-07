@@ -1,15 +1,21 @@
 export enum EScreens {
     // Auth screens
-    AuthMain = "AuthMain",
+    AuthAuthorization = "AuthAuthorization",
+    AuthRegistration = "AuthRegistration",
 
     // Home screens
     HomeMain = "HomeMain",
 
     // Catalog
     CatalogMain = "CatalogMain",
+    CatalogProductList = "CatalogProductList",
+    ProductMain = "ProductMain",
 
-    // Order
-    OrderMain = "OrderMain",
+    // Liked
+    LikedMain = "LikedMain",
+
+    // Liked
+    CartMain = "CartMain",
 
     // Profile
     ProfileMain = "ProfileMain",

@@ -1,6 +1,7 @@
 export enum EStacks {
     Home = "HomeStack",
     Profile = "ProfileStack",
-    Order = "OrderStack",
-    Catalog = "CatalogStack"
+    Liked = "LikedStack",
+    Catalog = "CatalogStack",
+    Cart = "CartStack",
 }

@@ -10,8 +10,9 @@ const Stack = createNativeStackNavigator<TCatalogStack>();
 const CatalogStack = () => {
     return (
         <Stack.Navigator screenOptions={ScreenNavigationOptions}>
-            {/*                 or ETabs                      */}
             <Stack.Screen name={EScreens.CatalogMain} component={CatalogScreens.Main} />
+            <Stack.Screen name={EScreens.CatalogProductList} component={CatalogScreens.ProductList} />
+            <Stack.Screen name={EScreens.ProductMain} component={CatalogScreens.Product} />
         </Stack.Navigator>
     );
 };

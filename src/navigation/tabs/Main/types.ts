@@ -1,12 +1,9 @@
-import { EStacks } from '../../stacks/stacks.ts';
+import { EStacks } from '../../stacks';
 
 export type TMainTab = {
     [EStacks.Home]: undefined,
     [EStacks.Catalog]: undefined,
-    [EStacks.Order]: undefined,
+    [EStacks.Liked]: undefined,
     [EStacks.Profile]: undefined,
-    // Home
-    // Order
-    // Catalog
-    // Profile
+    [EStacks.Cart]: undefined,
 }

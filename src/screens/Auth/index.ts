@@ -1,3 +1,5 @@
-import { Main } from './Main';
+import { Authorization } from './Authorization';
+import { Registration } from './Registration';
 
-export const AuthScreens = { Main }
+
+export const AuthScreens = { Registration, Authorization }

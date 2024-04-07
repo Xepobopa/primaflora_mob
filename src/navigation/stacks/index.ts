@@ -1,6 +1,6 @@
 export * from './Home'
 export * from './Main'
-export * from './Order'
+export * from './Liked'
 export * from './Catalog'
 export * from './Profile'
 

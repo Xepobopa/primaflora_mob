@@ -7,10 +7,14 @@
 
 import React from 'react';
 import Navigator from './src/navigation/Navigator.tsx';
+import { Provider } from 'react-redux';
+import store from './src/store/store.ts';
 
 function App(): JSX.Element {
     return (
-        <Navigator />
+        <Provider store={store}>
+            <Navigator />
+        </Provider>
     );
 }
 
